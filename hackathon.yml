@@ -10,7 +10,7 @@ emails:
   donotreply: noreply@hackher413.com
   contact: hackher413@gmail.com
 slack:
-  subdomain: hackher4132020
+  subdomain:  hackher4132020
 applications:
   mode: 'open'
   # options: open, waitlist, or closed. defaults to closed.
