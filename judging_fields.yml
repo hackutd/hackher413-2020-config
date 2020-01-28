@@ -30,6 +30,7 @@ custom_fields:
   - name: presentation
     label: "How well did the hackers present their project?"
     type: range_restricted
+    step: 7.5
     max: 30
     scores: 
       - points: 7.5
