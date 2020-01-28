@@ -1,9 +1,6 @@
 <p><b>Thanks!</b> You joined our Slack! Try checking out the <b>#mentorship</b> channel! See if you can find a mentor to help you out!</p>
 <a href="https://<%= HackumassWeb::Application::SLACK_SUBDOMAIN %>.slack.com/app_redirect?channel=mentorship" target="_blank" class="btn btn-dark"><i class="fe fe-slack mr-2"></i>Go to #mentorship channel</a>
 <br>
-<%# <img src="https://i.imgur.com/ujVGXdo.png">
-<img src="https://i.imgur.com/IXzxLjz.png"> %>
-
 <style>
 /* The Modal (background) */
 .modal {
@@ -44,17 +41,23 @@
   cursor: pointer;
 }
 </style>
+<center><h3>Floor Plans & Map</h3>
+Click on the images to expand them!
+</center>
+<div class="row">
+<div class="col-md-6">
+<img id="myBtn" src="https://i.imgur.com/ujVGXdo.png">
+</div>
+<div class="col-md-6">
+<img id="myBtn2" src="https://i.imgur.com/IXzxLjz.png">
 
+</div>
 
-<!-- Trigger/Open The Modal -->
-<%# <button id="myBtn">Open Modal</button> %>
-<img id="myBtn" src="https://i.imgur.com/ujVGXdo.png" width="50%">
-<img id="myBtn2" src="https://i.imgur.com/IXzxLjz.png" width="50%">
+</div>
 <!-- The Modal -->
 
 <div class="row">
-<div >
-</div>
+
 <div id="myModal" class="modal">
 
   <!-- Modal content -->
@@ -65,6 +68,7 @@
 
 </div>
 
+
 <div id="myModal2" class="modal">
 
   <!-- Modal content -->
@@ -74,6 +78,9 @@
   </div>
 
 </div>
+</div>
+
+
 
 <script>
 // Get the modal
