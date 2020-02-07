@@ -30,3 +30,9 @@ checkin:
 projects:
   public: true
   #hacking_begins: ""
+# List all codes here which can be redeemed on Dashboard to grant permissions
+# This is useful for judges and mentors who show up to the event and need an account
+# with more permissions, and can save time and effort of an organizer
+# Format is code:role granted
+codes:
+  hackher2020mentor!: mentor
