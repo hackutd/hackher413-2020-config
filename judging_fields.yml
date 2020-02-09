@@ -1,79 +1,63 @@
 options:
 
 custom_fields:
-  - name: originality
-    label: "How unique is the concept?"
-    type: button
+  - name: creativity_of_idea
+    label: "How creative is the idea of the hack?"
+    type: range
     max: 20
     scores:
       - points: 7
-        description: "A copy or clone of something already out there, e.g. an existing app"
+        description: "Low: A copy of something already out there (i.e. an existing application)"
       - points: 14
-        description: "Project improves upon an existing app or a solution to a problem"
+        description: "Medium: Similar to existing applications but team has some originality and incorporates new solutions."
       - points: 20
-        description: "Idea is completely novel and/or is a completely new solution to a problem"
-  - name: technical_depth
-    label: "How sophistaced/difficult is the idea to implement?"
-    type: button
-    max: 10
-    scores:
-      - points: 3
-        description: "Straightforward use of existing APIs, frameworks, or solutions"
-      - points: 6
-        description: "Uses a mix of new and existing ideas/tech to solve problems"
-      - points: 10
-        description: "Project contains novel and well thought out solutions to hard problems"
-  - name: execution
-    label: "How well does each piece of the project work?"
-    type: button
-    max: 30
-    scores: 
-      - points: 5
-        description: "The individual pieces of the project are not connected and coherent"
-      - points: 20
-        description: "The individual pieces work with some functional issues or major flaws"
-      - points: 30
-        description: "The individual pieces are compeltely functional with minimal issues"
-  - name: integration
-    label: "How well does the project work as a whole?"
-    type: button
-    max: 30
-    scores: 
-      - points: 3
-        description: "The pieces of the project are not connected and coherent"
-      - points: 6
-        description: "The pieces are connected with some functional issues"
-      - points: 10
-        description: "Project is very well connected from end to end and shows good polish"
-  - name: relevant_experience
-    label: "How much did the team members learn vs. what did they already know?"
-    type: button
-    max: 15
-    scores: 
-      - points: 3
-        description: "Team was fully capable and equipped with the background to execute the project idea"
-      - points: 8
-        description: "Team had some experience and basic background knowledge coming into the event"
-      - points: 15
-        description: "Team had little to no experience in the tools, technologies, and/or field related to the idea"
-  - name: depth_of_knowledge
-    label: "How much do team members understand of what they built and how it works?"
-    type: button
-    max: 15
-    scores: 
-      - points: 3
-        description: "The team demonstrated little to no knowledge of tools and technologies used in the project"
-      - points: 8
-        description: "The team is able to explain at a basic level, but unable to show deeper understanding (e.g. why certain things work)"
-      - points: 15
-        description: "The team is able to demonstrate a coherent and thorough technical understanding of event component in the project"
-
-  - name: judge_points
-    label: "Award up to 5 points if you really think this project went above and beyond in some way and/or you really liked it."
+        description: "High: Idea is completely novel and/or is a completely new and creative solution to a problem"
+  - name: technically_challenging
+    label: "How technically challenging was the idea relative to the experience levels of team members?"
     type: range
-    max: 5
+    max: 20
+    scores:
+      - points: 7
+        description: "Low: Team members are fully capable and equipped with the background to execute the project idea. The idea was possibly too easy given the experience level."
+      - points: 14
+        description: "Medium: Team members are somewhat experienced in area of project and could've incorporated more challenging aspects; they did not reach out of their comfort zone."
+      - points: 20
+        description: "High: Team members have little to no experience in the tools, technologies, and/or field related to the idea. The idea was overly challenging given the experience level."
+  - name: user_friendly
+    label: "How intuitive is the user experience and overall design of the project?"
+    type: range
+    max: 20
     scores: 
-      - points: 0
-        description: "No additional points"
-      - points: 5
-        description: "Maximum additional points"
+      - points: 7
+        description: "Low: The project is metaphorically strung together with duct tape, or has unintuitive design."
+      - points: 14
+        description: "Medium: The project functions but has an imperfect user experience and/or lacks purpose."
+      - points: 20
+        description: "High: The project is intuitive and easy-to-use, with a user of the project easily able to understand how to use it and its purpose."
+  - name: wow_factor
+    label: "How much does the project make you say WOW?"
+    type: range
+    max: 20
+    scores: 
+      - points: 7
+        description: "Low: The project didn't spark any wow factors. Unexciting."
+      - points: 14
+        description: "Medium: The project was cool, but could have been more interesting in some aspects. Most projects fall into this category."
+      - points: 20
+        description: "High: The project was extremely impressive."
+  - name: prize_category_fit
+    label: "How well does this project fit into the prize category? (The prize category is under 'Tag')"
+    type: range
+    max: 10
+    scores: 
+      - points: 3
+        description: "Low: The project doesn't really fit into the prize category. It doesn't fit at all or fits poorly."
+      - points: 7
+        description: "Medium: The project fits moderately well into the prize category."
+      - points: 10
+        description: "High: The project stands out as a front-runner in this prize category."
+  - name: comments
+    label: "Any additional notes or comments can be entered here. Please keep it short! (max one paragraph)"
+    type: textarea
+    max: 0
+    scores: {}
