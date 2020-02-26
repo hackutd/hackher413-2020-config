@@ -1,16 +1,16 @@
-name: HackHer413
+name: Hack to School
 #version: 2020 # Could also be a roman numeral or other number, will be concatenated with the hackathon name where necessary
-main_website: http://hackher413.com
-dashboard_url: dashboard.hackher413.com
+main_website: https://hackutd.co
+dashboard_url: dashboard.hackutd.co
 logos:
   primary_path: 2020hackher_logo.png
   nav_path: navlogo.png
   favicon_url: https://www.hackher413.com/assets/images/logos/favicon.ico
 emails:
-  donotreply: noreply@hackher413.com
-  contact: hackher413@gmail.com
+  donotreply: hackutdteam@gmail.com
+  contact: hackutdteam@gmail.com
 slack:
-  subdomain:  hackher4132020
+  subdomain: hackutdvi
 applications:
   mode: 'waitlist'
   # options: open, waitlist, or closed. defaults to closed.
@@ -18,15 +18,13 @@ applications:
   # flag is enabled.
 checkin:
   # Any participant with this email domain will be counted as from the host university
-  university_email_suffix: umass.edu
-  university_name: University of Massachusetts, Amherst
+  university_email_suffix: utdallas.edu
+  university_name: The University of Texas at Dallas
   university_name_checks:
-    - UMass
-    - UMass Amherst
-    - Mass Amherst
-    - Mass-Amherst
-    - Mass at Amherst
-    - Mass, Amherst
+    - University of Texas at Dallas
+    - UT Dallas
+    - UTD
+    - UT - Dallas
 projects:
   public: true
   #hacking_begins: ""
