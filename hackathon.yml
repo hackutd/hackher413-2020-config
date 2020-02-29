@@ -1,18 +1,18 @@
 name: Hack to School
 #version: 2020 # Could also be a roman numeral or other number, will be concatenated with the hackathon name where necessary
 main_website: https://hackutd.co
-dashboard_url: dashboard.hackutd.co
+dashboard_url: portal.hackutd.co
 logos:
   primary_path: 2020hackher_logo.png
   nav_path: navlogo.png
-  favicon_url: https://www.hackher413.com/assets/images/logos/favicon.ico
+  favicon_url: https://www.hackutd.co/global-assets/favicon.png
 emails:
   donotreply: hackutdteam@gmail.com
   contact: hackutdteam@gmail.com
 slack:
   subdomain: hackutdvi
 applications:
-  mode: 'waitlist'
+  mode: 'open'
   # options: open, waitlist, or closed. defaults to closed.
   # The applications are still not opened unless the applications feature
   # flag is enabled.
@@ -22,11 +22,14 @@ checkin:
   university_name: The University of Texas at Dallas
   university_name_checks:
     - University of Texas at Dallas
+    - The University of Texas at Dallas
     - UT Dallas
     - UTD
+    - utd
+    - Utd
     - UT - Dallas
 projects:
-  public: true
+  public: false
   #hacking_begins: ""
 # List all codes here which can be redeemed on Dashboard to grant permissions
 # This is useful for judges and mentors who show up to the event and need an account
