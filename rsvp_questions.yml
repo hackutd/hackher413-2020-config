@@ -1,0 +1,5 @@
+custom_questions:
+ - name: coming_from
+   label: "What would you like to see at Hack To School?"
+   type: textarea
+   max_chars: 500

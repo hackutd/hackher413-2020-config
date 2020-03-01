@@ -17,7 +17,7 @@ var addBanner = function() {
 
 var init = function() {
     // console.log("This is custom javascript run on every pageload.");
-    addBanner();
+    //addBanner();
 }
 
 window.addEventListener('load', init);

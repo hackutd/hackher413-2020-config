@@ -84,10 +84,11 @@ custom_fields:
     - HackUTD Newsletter
     - Word of Mouth
     - Other
-   required: true
+   required: True
  - name: fun_question
    label: "Are you excited to attend Hack To School?"
    type: multiselect
+   required: True
    options:
     - "Yes"
     - "HELL YES"
