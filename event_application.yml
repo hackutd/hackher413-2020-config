@@ -91,4 +91,9 @@ custom_fields:
    required: True
    options:
     - "Yes"
-    - "HELL YES"
+    - "HECK YES"
+ - name: utd
+   label: "Are you a student at UT Dallas?"
+   type: boolean
+   required: True
+   
